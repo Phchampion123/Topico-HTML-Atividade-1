@@ -1,0 +1,19 @@
+h1 {
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+}
+
+h2, h3, h4, h5, h6 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    color: lightgrey;
+    padding: 10px;
+    margin: 10px 0;
+}

@@ -1,19 +1,26 @@
-h1 {
-    color: #3D3D3D;
-    background-color: #E1EDF2;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h2, h3, h4, h5, h6 {
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
+.sobre h2 {
+  color: #3D3D3D;
+  background-color: #E1EDF2;
+  padding: 10px;
 }
 
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: whitesmoke;
-    color: lightgrey;
-    padding: 10px;
-    margin: 10px 0;
+h2 {
+  border-bottom: 2px solid #ccc;
+}
+
+.imagem {
+  display: block;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.legenda {
+  text-align: center;
+  color: lightgrey;
+  font-style: italic;
 }

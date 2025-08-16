@@ -1,0 +1,19 @@
+.cabecalho {
+    background-color: #2D5377;
+    color: #FFF;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho img {
+    height: 40px;
+}
+.cabecalho nav ul {
+    display: flex;
+    gap: 15px;
+}
+.cabecalho nav ul li a {
+    color: #FFF;
+    font-weight: 500;
+}
